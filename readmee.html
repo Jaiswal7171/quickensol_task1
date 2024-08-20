@@ -1,0 +1,12 @@
+#->Setting Flashdata
+
+$this->session->set_flashdata('message', 'Your data has been saved successfully!');
+
+
+#->Retrieving Flashdata
+
+<?php if($this->session->flashdata('message')): ?>
+    <div class="alert alert-success">
+        <?php echo $this->session->flashdata('message'); ?>
+    </div>
+<?php endif; ?>
