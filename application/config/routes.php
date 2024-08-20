@@ -61,7 +61,7 @@ $route['admin'] = 'admin/AdminController/adminRegisterpage';
 $route['admin/adminRegister'] = 'admin/AdminController/adminRegister';
 
 $route['adminlogin'] = 'admin/AdminController/adminlogin';
-
+$route['admin/getadmin'] = 'admin/AdminController/getadmin';
 
 $route['admin/dashboard'] = 'admin/AdminController/dashboard';
 $route['admin/viewemployee'] = 'admin/AdminController/viewEmployee';

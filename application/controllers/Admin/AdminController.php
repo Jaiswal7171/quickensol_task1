@@ -39,6 +39,6 @@ class AdminController extends CI_Controller {
 
     public function getadmin() {
         $data['employee_data'] = $this->Register_model->getAllEmployees(); // Fetch employee data
-        $this->load->view('admin/login', $data); // Load the view with data
+        $this->load->view('admin/view', $data); // Load the view with data
     }
 }

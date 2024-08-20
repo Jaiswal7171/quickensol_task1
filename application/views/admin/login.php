@@ -37,7 +37,7 @@
                 <a href="index.html"><i class="fa-duotone fa-house-chimney"></i></a>
             </div>
             <div class="bottom">
-                <h3 class="panel-title">Registration</h3>
+                <h3 class="panel-title">Login Page</h3>
                 <form action="<?php echo base_url(); ?>admin/adminRegister" method="post">
                
                 
@@ -61,18 +61,7 @@
                 <button type="submit" class="btn btn-primary w-100 login-btn">Sign up</button>
             </form>
 
-            <?php if ($this->session->flashdata('error')): ?>
-    <div class="alert alert-danger">
-        <?php echo $this->session->flashdata('error'); ?>
-    </div>
-<?php endif; ?>
-
-<?php if ($this->session->flashdata('success')): ?>
-    <div class="alert alert-success">
-        <?php echo $this->session->flashdata('success'); ?>
-    </div>
-<?php endif; ?>
-
+           
 
 
                 <div class="other-option">

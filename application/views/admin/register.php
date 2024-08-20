@@ -38,6 +38,7 @@
             </div>
             <div class="bottom">
                 <h3 class="panel-title">Registration</h3>
+                <a href="<?php echo base_url(); ?>admin/getadmin">View All Data</a>
                 <form action="<?php echo base_url(); ?>admin/adminRegister" method="post">
                
                 
